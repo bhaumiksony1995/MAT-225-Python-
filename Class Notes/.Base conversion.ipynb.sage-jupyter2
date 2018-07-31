@@ -1,0 +1,4 @@
+{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}},"kernel_state":"idle"}
+{"type":"cell","id":"acb256","pos":0,"input":"message = \"BEARS\"\nnew = map(ord, message)\nold = map(chr,new)\nprint new, old","output":{"0":{"name":"stdout","output_type":"stream","text":"[66, 69, 65, 82, 83] ['B', 'E', 'A', 'R', 'S']\n"}},"cell_type":"code","exec_count":4}
+{"type":"cell","id":"a3081f","pos":1,"input":"","cell_type":"code","exec_count":0}
+{"type":"file","last_load":1506437845309}
