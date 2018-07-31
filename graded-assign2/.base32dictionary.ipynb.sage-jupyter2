@@ -1,7 +1,0 @@
-{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}},"kernel_state":"idle"}
-{"type":"file","last_load":1506438198017}
-{"exec_count":3,"input":"# Use for encoding from integers to letters for base 32 encoding\n\nalpha={i:chr(65+i) for i in range(26)}\nalpha.update({26:'2',27:'3',28:'4',29:'5',30:'6',31:'7'})\ndef text(t):\n    print(alpha[t])","state":"done","pos":0,"cell_type":"code","type":"cell","id":"2f362e","kernel":"python2"}
-{"type":"cell","id":"9c326d","pos":1,"input":"Example:","cell_type":"markdown"}
-{"type":"cell","id":"dfe2f6","pos":2,"input":"for i in range(32):\n    print i,text(i)","output":{"0":{"name":"stdout","output_type":"stream","text":"0 A\n1 B\n2 C\n3 D\n4 E\n5 F\n6 G\n7 H\n8 I\n9 J\n10 K\n11 L\n12 M\n13 N\n14 O\n15 P\n16 Q\n17 R\n18 S\n19 T\n20 U\n21 V\n22 W\n23 X\n24 Y\n25 Z\n26 2\n27 3\n28 4\n29 5\n30 6\n31 7\n"}},"cell_type":"code","exec_count":2}
-{"type":"cell","id":"e1354e","pos":3,"input":"","cell_type":"code","exec_count":0}
-{"type":"cell","id":"daf712","pos":0.5,"input":""}
